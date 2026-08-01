@@ -6,6 +6,12 @@
 ![Excel](https://img.shields.io/badge/Microsoft-Excel-green?logo=microsoft-excel)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+---
+
+![Dashboard](assets/dashboard_overview.png)
+
+---
+
 ## Executive Summary
 
 Traditional credit scoring models rely heavily on historical credit bureau information, making it difficult to accurately assess applicants with limited or no formal credit history. This project develops an end-to-end alternative credit underwriting pipeline that combines demographic, financial, and behavioral repayment data to estimate each applicant's **Probability of Default (PD)** and calculate **Expected Credit Loss (ECL)** for portfolio risk management.
@@ -36,7 +42,7 @@ This project demonstrates how behavioral repayment information can supplement tr
 
 ---
 
-# Technologies Used
+# Technical Stack
 
 | Category | Tools |
 |----------|------|
@@ -301,22 +307,27 @@ This parameter dynamically updates:
 
 The project evaluates model performance using:
 
-- ROC Curve
-- ROC-AUC Score
-- Confusion Matrix
-- Classification Report
-- Feature Importance
+### Payment Burden Density
 
-Generated visualizations:
+![Payment Burden Density](assets/payment_burden_density.png)
 
-```
-assets/
-│
-├── payment_burden_density.png
-├── roc_curve.png
-├── confusion_matrix.png
-└── feature_importance.png
-```
+---
+
+### ROC Curve
+
+![ROC Curve](assets/roc_curve.png)
+
+---
+
+### Confusion Matrix
+
+![Confusion Matrix](assets/confusion_matrix.png)
+
+---
+
+### Feature Importance
+
+![Feature Importance](assets/feature_importance.png)
 
 ---
 
